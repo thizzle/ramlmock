@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "description": "An HTTP server that produces mock/example data specified by a RAML document.",
+  "description": "A HTTP server that produces mock/example data specified by a RAML document.",
   "main": "server.js",
   "devDependencies": {},
   "repository": {
