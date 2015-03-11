@@ -1,6 +1,6 @@
 {
   "name": "ramlmock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "express": "^4.12.2",
     "minimist": "^1.1.1",
