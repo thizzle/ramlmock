@@ -1,0 +1,26 @@
+{
+  "name": "ramlmock",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.12.2",
+    "minimist": "^1.1.1",
+    "morgan": "^1.5.1",
+    "raml-parser": "^0.8.10"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "An HTTP server that produces mock/example data specified by a RAML document.",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thizzle/ramlmock.git"
+  },
+  "author": "Tharsan Bhuvanendran <me@tharsan.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thizzle/ramlmock/issues"
+  },
+  "homepage": "https://github.com/thizzle/ramlmock"
+}
