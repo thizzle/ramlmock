@@ -71,7 +71,7 @@ function handler(resource, method) {
         }
 
         if (method.responses && method.responses.hasOwnProperty(status)) {
-            for (contentType in method.responses[status].body) {
+            for (var contentType in method.responses[status].body) {
                 if (req.accepts(contentType)) {
                     resp.status(200).type(contentType).send(method.responses[status].body[contentType].example);
                 } else {
